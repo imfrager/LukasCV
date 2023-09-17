@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="Loading-Screen">
+      <div id="Loading-boble">
+        <svg id="Icons" style="enable-background:new 0 0 32 32;" version="1.1" viewBox="0 0 32 32" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><path d="M16,2c-1.7,0-3,1.3-3,3s1.3,3,3,3s3-1.3,3-3S17.7,2,16,2z"/><path d="M10.3,6.1C9.2,5,7.2,5,6.1,6.1c-1.2,1.2-1.2,3.1,0,4.2c0.6,0.6,1.3,0.9,2.1,0.9c0.8,0,1.6-0.3,2.1-0.9   C11.5,9.2,11.5,7.3,10.3,6.1C10.3,6.1,10.3,6.1,10.3,6.1z"/><path d="M8,16c0-1.7-1.3-3-3-3s-3,1.3-3,3s1.3,3,3,3S8,17.7,8,16z"/><path d="M6.1,21.7C6.1,21.7,6.1,21.7,6.1,21.7c-1.2,1.2-1.2,3.1,0,4.2c0.6,0.6,1.3,0.9,2.1,0.9c0.8,0,1.6-0.3,2.1-0.9   c1.2-1.2,1.2-3.1,0-4.2C9.2,20.5,7.2,20.5,6.1,21.7z"/><path d="M16,24c-1.7,0-3,1.3-3,3s1.3,3,3,3s3-1.3,3-3S17.7,24,16,24z"/><path d="M21.7,21.7c-1.2,1.2-1.2,3.1,0,4.2c0,0,0,0,0,0c0.6,0.6,1.3,0.9,2.1,0.9c0.8,0,1.6-0.3,2.1-0.9c1.2-1.2,1.2-3.1,0-4.2   C24.8,20.5,22.8,20.5,21.7,21.7z"/><path d="M27,13c-1.7,0-3,1.3-3,3s1.3,3,3,3s3-1.3,3-3S28.7,13,27,13z"/><path d="M23.8,11.2c0.8,0,1.6-0.3,2.1-0.9c0,0,0,0,0,0c1.2-1.2,1.2-3.1,0-4.2c-1.1-1.1-3.1-1.1-4.2,0c-1.2,1.2-1.2,3.1,0,4.2   C22.2,10.9,23,11.2,23.8,11.2z"/></g></svg>
+      </div>
+    </div>
+
+    <canvas id="bg"></canvas>
+    <div class="bottom">
+      <div id="tab" disabled>
+        <div class="quickButton" id="next" ><svg height="100%" viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg"><title/><path d="M39.3756,48.0022l30.47-25.39a6.0035,6.0035,0,0,0-7.6878-9.223L26.1563,43.3906a6.0092,6.0092,0,0,0,0,9.2231L62.1578,82.615a6.0035,6.0035,0,0,0,7.6878-9.2231Z"/></svg>
+        </div>
+        <div class="quickButton" id="last" ><svg height="100%" viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg"><title/><path d="M69.8437,43.3876,33.8422,13.3863a6.0035,6.0035,0,0,0-7.6878,9.223l30.47,25.39-30.47,25.39a6.0035,6.0035,0,0,0,7.6878,9.2231L69.8437,52.6106a6.0091,6.0091,0,0,0,0-9.223Z"/></svg>
+        </div>
+      </div>
+    </div>
+
+    <div class="left">
+        <div class="Text-Container h-100 w-75 m-auto overflow-y-scroll ">
+          <p class="him"> Anubis </p>
+      <p>Anubis was the ruler of an ancient city. He ruled his land with strength and prestige. His only goal was conquest.
+
+      Ideologies of others did not concern him. The gods held powers which he sought out to get. They're followers were mere vessels of power he could tap from. The only god he acknowledged was Zaros. The ideology of power was something he could relate to. Yet he would not pray to any god, even Zaros.
+      
+      This did not shun Anubis from the god, but rather gave him his blessings. Zaros has chosen another vessel to carry his power.
+      </p>
+      <div class='quoates'>
+          <p>“Your prayers are mere pleads. You revoke power that is yours and knee to a higher stance of power.”</p>
+          <p>“I will give you power so that you may serve me.”</p>
+          <p>“Fools don't realise the power handed only adds Whatever strength they had to me.”</p>
+          <p>“Zaros, I have noticed your favour. Don't think that this earns you mines."</p>
+      </div>
+        </div>
+    </div>
+
+
+    <div class="right">
+
+      <div class="buttoners d-flex flex-row">
+        <div id="CamChanger" class="quickButton">
+          <svg viewBox="0 0 24 24" width="34px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M23.2,6c-0.2-0.1-0.4-0.1-0.5,0l-3.5,2.7V7.5c0-1.6-1.3-2.9-2.9-2.9H3.4c-1.6,0-2.9,1.3-2.9,2.9v9c0,1.6,1.3,2.9,2.9,2.9  h12.9c1.6,0,2.9-1.3,2.9-2.9v-1.2l3.5,2.7c0.1,0.1,0.3,0.1,0.5,0c0.2-0.1,0.3-0.2,0.3-0.4V6.4C23.5,6.2,23.4,6.1,23.2,6z"/></svg>
+        </div>
+        <div id="Backto" class="quickButton">
+            <svg baseProfile="tiny" height="44px" id="Layer_1" version="1.2" viewBox="0 0 24 24" width="44px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><path d="M19.164,19.547c-1.641-2.5-3.669-3.285-6.164-3.484v1.437c0,0.534-0.208,1.036-0.586,1.414   c-0.756,0.756-2.077,0.751-2.823,0.005l-6.293-6.207C3.107,12.523,3,12.268,3,11.999s0.107-0.524,0.298-0.712l6.288-6.203   c0.754-0.755,2.073-0.756,2.829,0.001C12.792,5.463,13,5.965,13,6.499v1.704c4.619,0.933,8,4.997,8,9.796v1   c0,0.442-0.29,0.832-0.714,0.958c-0.095,0.027-0.19,0.042-0.286,0.042C19.669,19.999,19.354,19.834,19.164,19.547z M12.023,14.011   c2.207,0.056,4.638,0.394,6.758,2.121c-0.768-3.216-3.477-5.702-6.893-6.08C11.384,9.996,11,10,11,10V6.503l-5.576,5.496l5.576,5.5   V14C11,14,11.738,14.01,12.023,14.011z"/></g></svg>
+        </div>
+      </div>
+
+    </div>
+    
+    <div id="app"></div>
+    <script type="module" src="/Rs_desert.js"></script>
+  </body>
+  <script src="https://unpkg.com/@popperjs/core@2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  <style>
+    @font-face {
+      font-family: 'zerocool';
+      src: url('fonts/ZeroCool.ttf') format('truetype');
+    }
+    @keyframes loady{
+      from {
+        opacity: 0.5;
+        rotate: 0deg;
+      }
+      to{
+        opacity: 1;
+        rotate: 360deg;
+      }
+    }
+    #Loading-Screen{
+      position: fixed; display: flex;
+      justify-content: center; align-items: center;
+      width: 100%; height: 100%;
+      background: rgb(0, 0, 0);
+      top: 0; left: 0;
+      z-index: 9999;
+    }
+    #Loading-boble{
+      width: 52px; height: 52px;
+      fill: white;
+      animation: loady 1s ease forwards infinite;
+    }
+    .Text-Container::-webkit-scrollbar {
+      display: none;
+    } 
+    .bg{
+      margin-left: 40px;
+      z-index: 1;
+    }
+    .him{
+        color: orange;
+        font-family: zerocool; font-size: 18px;
+
+    }
+    .quoates{
+        color: rgb(201, 201, 201);
+        font-family: sans-serif; font-size: 11px;
+    }
+    .left{
+      padding: 10px;
+      font-family: zerocool; font-size: 12px; color: white; letter-spacing: 0.1em; word-spacing: 0.2em;
+      left: 0px; top: 0px;
+      position: absolute;
+      z-index: 1;
+      background-color: rgba(0,0,0,0.5);
+      box-shadow: 0 0 4px 2px black inset;
+      width: 384px;height: 512px;
+    }
+    .right{
+      right: 0px; top: 0px;
+      position: absolute;
+      z-index: 1;
+      
+      width: 156px;height: 100%;
+    }
+    .buttoners{
+      position: absolute; right: 0px; top: 0px;
+      background-color: rgba(0,0,0,0.4);
+      
+      border-bottom-left-radius: 8px;padding-bottom: 5px;
+    }
+    .bottom{
+      z-index: 2;
+      display: flex; justify-content: center; align-items: center;
+      position: fixed; bottom: 0px; left: 0px;
+      margin: 0px; padding: 0px; margin-bottom: 15px;
+      width: 100%; height: 50px;
+    }
+    #tab{
+      width: 384px; height: 50px; border-radius: 15px;
+      background-color: rgba(0,0,0,0.4);
+      display: flex; justify-content: space-between;
+    }
+    .quickButton{
+      display: flex; justify-content: center; align-items: center;
+      width: 88px; height: 44px; border-radius: 15px; margin-top: 3px; margin-left: 3px; margin-right: 3px;
+      background-color: rgba(0,0,0,0.4);
+      fill: white;
+    }
+    .quickButton:hover{
+      width: 96px; height: 48px; border-radius: 15px; margin-top: 1px; margin-left: 1px; margin-right: 1px;
+      background-color: rgba(0,0,0,0.4);
+      fill: rgb(0, 208, 255);
+    }
+    #next{
+      float:left;
+    }
+    #last{
+      float:right;
+    }
+  </style>
+</html>

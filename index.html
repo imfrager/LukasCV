@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./images/right.webp" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MainMenue</title>
+  </head>
+  <body>
+    <div id="Loading-Screen">
+      <div id="Loading-boble">
+        <svg id="Icons" style="enable-background:new 0 0 32 32;" version="1.1" viewBox="0 0 32 32" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><path d="M16,2c-1.7,0-3,1.3-3,3s1.3,3,3,3s3-1.3,3-3S17.7,2,16,2z"/><path d="M10.3,6.1C9.2,5,7.2,5,6.1,6.1c-1.2,1.2-1.2,3.1,0,4.2c0.6,0.6,1.3,0.9,2.1,0.9c0.8,0,1.6-0.3,2.1-0.9   C11.5,9.2,11.5,7.3,10.3,6.1C10.3,6.1,10.3,6.1,10.3,6.1z"/><path d="M8,16c0-1.7-1.3-3-3-3s-3,1.3-3,3s1.3,3,3,3S8,17.7,8,16z"/><path d="M6.1,21.7C6.1,21.7,6.1,21.7,6.1,21.7c-1.2,1.2-1.2,3.1,0,4.2c0.6,0.6,1.3,0.9,2.1,0.9c0.8,0,1.6-0.3,2.1-0.9   c1.2-1.2,1.2-3.1,0-4.2C9.2,20.5,7.2,20.5,6.1,21.7z"/><path d="M16,24c-1.7,0-3,1.3-3,3s1.3,3,3,3s3-1.3,3-3S17.7,24,16,24z"/><path d="M21.7,21.7c-1.2,1.2-1.2,3.1,0,4.2c0,0,0,0,0,0c0.6,0.6,1.3,0.9,2.1,0.9c0.8,0,1.6-0.3,2.1-0.9c1.2-1.2,1.2-3.1,0-4.2   C24.8,20.5,22.8,20.5,21.7,21.7z"/><path d="M27,13c-1.7,0-3,1.3-3,3s1.3,3,3,3s3-1.3,3-3S28.7,13,27,13z"/><path d="M23.8,11.2c0.8,0,1.6-0.3,2.1-0.9c0,0,0,0,0,0c1.2-1.2,1.2-3.1,0-4.2c-1.1-1.1-3.1-1.1-4.2,0c-1.2,1.2-1.2,3.1,0,4.2   C22.2,10.9,23,11.2,23.8,11.2z"/></g></svg>
+      </div>
+    </div>
+    <canvas id="bg"></canvas>
+    <div class="bottom">
+      <div id="tab" disabled>
+        <div class="quickButton" id="next" ><svg height="100%" viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg"><title/><path d="M39.3756,48.0022l30.47-25.39a6.0035,6.0035,0,0,0-7.6878-9.223L26.1563,43.3906a6.0092,6.0092,0,0,0,0,9.2231L62.1578,82.615a6.0035,6.0035,0,0,0,7.6878-9.2231Z"/></svg>
+        </div>
+        <div class="quickButton" id="last" ><svg height="100%" viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg"><title/><path d="M69.8437,43.3876,33.8422,13.3863a6.0035,6.0035,0,0,0-7.6878,9.223l30.47,25.39-30.47,25.39a6.0035,6.0035,0,0,0,7.6878,9.2231L69.8437,52.6106a6.0091,6.0091,0,0,0,0-9.223Z"/></svg>
+        </div>
+      </div>
+    </div>
+    <div id="medias" class="d-flex flex-row z-2 position-absolute" style="left: 0px; top: 0px;">
+      <a href="https://www.youtube.com/channel/UCAyMfWp078dyWTP-QX2hoGA" class="media d-flex justify-content-center align-items-center m-2">
+        <div class="w-100 h-100 d-flex justify-content-center align-items-center">
+          <svg height="48px" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="48px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="_x33_95-youtube"><g><path d="M476.387,144.888c-5.291-19.919-20.878-35.608-40.67-40.933C399.845,94.282,256,94.282,256,94.282    s-143.845,0-179.719,9.674c-19.791,5.325-35.378,21.013-40.668,40.933c-9.612,36.105-9.612,111.438-9.612,111.438    s0,75.334,9.612,111.438c5.29,19.92,20.877,34.955,40.668,40.281C112.155,417.719,256,417.719,256,417.719    s143.845,0,179.717-9.674c19.792-5.326,35.379-20.361,40.67-40.281c9.612-36.104,9.612-111.438,9.612-111.438    S485.999,180.994,476.387,144.888z" style="fill:#FF0000;"/><polygon points="208.954,324.723 208.954,187.93 329.18,256.328   " style="fill:#FFFFFF;"/></g></g><g id="Layer_1"/></svg>
+        </div>
+      </a>
+      <a href="https://twitter.com/Frager69184523" class="media d-flex justify-content-center align-items-center m-2">
+        <div class="w-100 h-100 d-flex justify-content-center align-items-center">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" width="48px" height="48px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve"><path d="M14.095479,10.316482L22.286354,1h-1.940718l-7.115352,8.087682L7.551414,1H1l8.589488,12.231093L1,23h1.940717  l7.509372-8.542861L16.448587,23H23L14.095479,10.316482z M11.436522,13.338465l-0.871624-1.218704l-6.924311-9.68815h2.981339  l5.58978,7.82155l0.867949,1.218704l7.26506,10.166271h-2.981339L11.436522,13.338465z" style="fill:#FFFFFF;"/></svg>
+        </div>
+      </a>
+    </div>
+
+    <div class="right">
+      
+      <div class="buttoners d-flex justify-content-center align-items-center z-1">
+        <div id="CamChanger" class="quickButton" style="width: 132px; height: 66px;">
+          <svg viewBox="0 0 24 24" width="68px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M23.2,6c-0.2-0.1-0.4-0.1-0.5,0l-3.5,2.7V7.5c0-1.6-1.3-2.9-2.9-2.9H3.4c-1.6,0-2.9,1.3-2.9,2.9v9c0,1.6,1.3,2.9,2.9,2.9  h12.9c1.6,0,2.9-1.3,2.9-2.9v-1.2l3.5,2.7c0.1,0.1,0.3,0.1,0.5,0c0.2-0.1,0.3-0.2,0.3-0.4V6.4C23.5,6.2,23.4,6.1,23.2,6z"/></svg>
+        </div>
+      </div>
+
+      
+      <div class="scenes" style="height: 256px;">
+        <a href="./Galery.html" style="text-decoration: none;"><div class="scButton">Galery</div></a>
+        <a href="./self.html" style="text-decoration: none;"><div class="scButton">MyDescription</div></a>
+        <a href="./Rs_desert.html" style="text-decoration: none;"><div class="scButton">Rs_Desert</div></a>
+        <a href="./Coloplast.html" style="text-decoration: none;"><div class="scButton">Current_Job</div></a>
+      </div>
+    </div>
+    
+    <div id="app"></div>
+    <script type="module" src="/Main.js"></script>
+  </body>
+  <!-- <script src="https://unpkg.com/@popperjs/core@2"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  <style>
+    @font-face {
+      font-family: 'zerocool';
+      src: url('fonts/ZeroCool.ttf') format('truetype');
+    }
+    @keyframes loady{
+      from {
+        opacity: 0.5;
+        rotate: 0deg;
+      }
+      to{
+        opacity: 1;
+        rotate: 360deg;
+      }
+    }
+    .media{
+      width: 58px; height: 58px; border-radius: 50%;
+      background-color: rgb(0, 0, 0); overflow: hidden;
+      box-shadow: 0 0 9px 2px cornflowerblue inset,
+                  0 0 8px 4px cyan ;
+    }
+    .media:hover{
+      width: 64px; height: 64px;
+    }
+    #Loading-Screen{
+      position: fixed; display: flex;
+      justify-content: center; align-items: center;
+      width: 100%; height: 100%;
+      background: rgb(0, 0, 0);
+      top: 0; left: 0;
+      z-index: 9999;
+    }
+    #Loading-boble{
+      width: 52px; height: 52px;
+      fill: white;
+      animation: loady 1s ease forwards infinite;
+    }
+    .carousel-item::-webkit-scrollbar {
+      display: none;
+    } 
+    
+    .personalData{
+      position: absolute;
+      right: 0px; bottom: 0px;
+      line-height: 14px;
+      
+      background-color: rgba(0,0,0,0.2);
+      width: 256px;height: 256px; padding: 10px;
+
+      color: white;
+      font-family: zerocool;
+    }
+    .personalData p{
+      border-radius: 5px;
+      background-color: rgba(255, 153, 0, 0.4);
+      padding: 5px;margin: 4px;
+    }
+    .bg{
+      margin-left: 40px;
+      z-index: 1;
+    }
+    .left{
+      padding: 10px;
+      font-family: zerocool; font-size: 12px; color: white; letter-spacing: 0.1em; word-spacing: 0.2em;
+      left: 0px; top: 0px;
+      position: absolute;
+      z-index: 1;
+      background-color: rgba(0,0,0,0.2);
+      box-shadow: 0 0 4px 2px black inset;
+      width: 384px;height: 512px;
+    }
+    .right{
+      right: 0px; top: 0px;
+      position: absolute;
+      z-index: 1;
+      
+      width: 156px;height: 100%;
+    }
+    .buttoners{
+      position: absolute; right: 0px; top: 0px;
+      background-color: rgba(0,0,0,0.4);
+      width: 256px; height: 97px;
+      border-bottom-left-radius: 8px;
+    }
+    .scenes{
+      background-color: rgba(0,0,0,0.4);
+      position: absolute;right: 0px; top: 99px;
+      width: 256px; height: 97px;
+    }
+    .bottom{
+      z-index: 2;
+      display: flex; justify-content: center; align-items: center;
+      position: fixed; bottom: 0px; left: 0px;
+      margin: 0px; padding: 0px; margin-bottom: 15px;
+      width: 100%; height: 50px;
+    }
+    .scButton{
+      display: flex;
+      background-color: rgba(0,0,0,0.4); border-radius: 5px;
+      color:aquamarine; text-decoration: none;text-align: center; align-items: center; justify-content: center;
+      padding:5px; margin: 2px; height: 24px; cursor: pointer;
+      font-family: zerocool;
+    }
+    .scButton:hover{
+      color:rgb(80, 253, 118); font-size: 15px;
+    }
+    #tab{
+      width: 384px; height: 50px; border-radius: 15px;
+      background-color: rgba(0,0,0,0.4);
+      display: flex; justify-content: space-between;
+    }
+    .quickButton{
+      display: flex; justify-content: center; align-items: center;
+      width: 88px; height: 44px; border-radius: 15px; margin-top: 3px; margin-left: 3px; margin-right: 3px;
+      background-color: rgba(0,0,0,0.4);
+      fill: white;
+    }
+    .quickButton:hover{
+      width: 96px; height: 48px; border-radius: 15px; margin-top: 1px; margin-left: 1px; margin-right: 1px;
+      background-color: rgba(0,0,0,0.4);
+      fill: rgb(0, 208, 255);
+    }
+    #next{
+      float:left;
+    }
+    #last{
+      float:right;
+    }
+  </style>
+</html>
